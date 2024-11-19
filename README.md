@@ -1,4 +1,4 @@
-# AnimateLCM-SVD Setup Guide
+# AnimateLCM-SVD Setup Guide (Genshin-Impact-background images as demo)
 
 This guide will walk you through the process of setting up the `AnimateLCM-SVD` project using Conda and Git.
 
