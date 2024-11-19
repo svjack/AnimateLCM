@@ -76,6 +76,13 @@ Finally, start the application by running the `app.py` script:
 python app.py
 ```
 
+### Mondstadt Knights of Favonius
+
+![凯亚](https://github.com/user-attachments/assets/97ee68e7-6c89-4e66-a509-024027772907)
+
+
+https://github.com/user-attachments/assets/ba650ff5-16e1-4060-bd3c-87da0ce978bc
+
 
 <div align="center">
 
