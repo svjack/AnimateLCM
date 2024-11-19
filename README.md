@@ -1,3 +1,82 @@
+# AnimateLCM-SVD Setup Guide
+
+This guide will walk you through the process of setting up the `AnimateLCM-SVD` project using Conda and Git.
+
+## Prerequisites
+
+- Ensure you have Conda installed on your system.
+- Ensure you have `sudo` privileges for installing system-level packages.
+
+## Step-by-Step Setup
+
+### 1. Create and Activate Conda Environment
+
+First, create a new Conda environment named `py310` with Python 3.10:
+
+```bash
+conda create -n py310 python=3.10
+```
+
+Activate the newly created environment:
+
+```bash
+conda activate py310
+```
+
+### 2. Install IPyKernel
+
+Install the `ipykernel` package to enable Jupyter Notebook support:
+
+```bash
+pip install ipykernel
+```
+
+Register the Conda environment as a Jupyter kernel:
+
+```bash
+python -m ipykernel install --user --name py310 --display-name "py310"
+```
+
+### 3. Update and Install System Packages
+
+Update your system's package list and install necessary packages:
+
+```bash
+sudo apt-get update
+sudo apt-get install cbm git-lfs ffmpeg
+```
+
+### 4. Clone the Repository
+
+Clone the `AnimateLCM-SVD` repository from Hugging Face:
+
+```bash
+git clone https://huggingface.co/spaces/svjack/AnimateLCM-SVD-Genshin-Impact-Demo
+```
+
+Navigate into the cloned repository:
+
+```bash
+cd AnimateLCM-SVD-Genshin-Impact-Demo
+```
+
+### 5. Install Project Dependencies
+
+Install the required Python packages using the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the Application
+
+Finally, start the application by running the `app.py` script:
+
+```bash
+python app.py
+```
+
+
 <div align="center">
 
 ## ⚡️AnimateLCM:  Computation-Efficient Personalized Style Video Generation without Personalized Video Data
